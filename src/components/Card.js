@@ -6,7 +6,7 @@ const countryImage = "https://kolanhastanesi.com.tr/images/uploads/3d946d6ec995c
 
 const Card = ({country,totalDeaths, totalRecovered, totalCase, city}) => {
     return(
-        <div className="max-w-sm rounded border-gray-600 overflow-hidden shadow-md cursor-pointer hover:shadow-lg hover:scale-105 transition-all">
+        <div className="max-w-sm mb-4 rounded border-gray-600 overflow-hidden shadow-md cursor-pointer hover:shadow-lg hover:scale-105 transition-all">
         <img src={countryImage} className="w-full" alt="Country"></img>
 
         <div className="px-6 py-4">
