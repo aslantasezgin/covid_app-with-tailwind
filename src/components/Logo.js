@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 const Logo = ({title,logo}) => {
     return(
-    <div className="flex items-center">
+    <div className="flex w-full items-center justify-center">
     <img src={logo} alt={title} className="mr-3 h-9"></img>
     <span className="self-center text-l font-semibold text-white">{title} </span>
     </div>
@@ -16,7 +16,7 @@ Logo.propTypes={
 }
 
 Logo.defaultProps={
-title:"Covid App",
+title:"Covid Report",
 logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/1020px-SARS-CoV-2_without_background.png"
 }
 

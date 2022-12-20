@@ -10,12 +10,10 @@ function App() {
 
   return (
     <>
-     <Header onMenuChange={(_key) => {
-      setKey(_key)
-     }}> </Header>
+     <Header> </Header>
 
      <div className="md:container md:mx-auto p-8 page-content">
-     {key===1 && <CoronaForCountry></CoronaForCountry> }
+    <CoronaForCountry></CoronaForCountry> 
     
      </div>
 
